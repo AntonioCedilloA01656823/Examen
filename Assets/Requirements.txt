@@ -1,0 +1,48 @@
+Using only the assets present in the project, create a game scene that meets the following requirements:
+
+1) The scene must contain a terrain (not bigger than 50x50).
+2) 3 different types of lights. More than one of the same type of light is allowed.    
+3) A controllable character.
+    3.1) The character must be able to jump.
+    3.2) The character must be able to collect objects.
+    3.3) The character must be able to interact with objects.
+    3.4) The character must be able to move in all directions.
+    3.5) Character animations needs to use the Animator component and a Blend Tree.
+    3.6) The character should be able to run and walk, transitions should be as smooth as possible.
+    3.7) The character should play a sound when jumping, walking and running depending on the speed and the surface. 
+4) At least one moving object via Animator component.
+5) At least one moving object via Scripting.
+6) Use a scene event to start a Timeline to mark the end of game.
+7) Use a Timeline to present the game level and start the game via a Timeline event. The character should remain in the same position during the Timeline duration and be free to move after the Timeline ends.
+8) At least one object must use a principle of the 12 principles of animation.
+9) Scene should use different sounds for different objects. The sounds should be louder when the character is closer to the object.
+10) Scene should have areas where the sound is muffed / echoed depending on the area.
+11) Animate skeleton model to perform an animation where it interacts with the character and uses the sword attached to their hand. Fix the animation(s) and model as needed.
+12) When the player press the P key, the game should pause and music should decrement its volume to 0. When the player press the P key again, the game should resume and the music should increment its volume to 1. Player controls should be restricted during pause.
+
+========== Notes ========== 
+
+Do not use any asset that is not present in the project.
+
+You can use any 3D model from the project.
+You can use any sound from the project.
+You can use any texture from the project.
+You can use any animation from the project.
+
+You can't use tags / name of object(s) to differentiate objects that should be interacted with.
+You can't add Layers or tags to the Project. There's already a default layer / tag setup in the project.
+
+SOLID principles should be followed.
+The code should be clean and easy to read.
+The code should be well commented.
+The project should be organized and easy to navigate.
+The project should run without any errors.
+The project should be optimized for performance. 
+
+========== Delivery ==========
+
+The project should be delivered as a git repository. The repository should contain the Unity project folder and a README file with instructions on how to run the project.
+There should be a commit for each requirement met.
+There should be a final commit marked as "Final commit" with the final version of the project. You can also use tags to mark the final version.
+Commits should have meaningful messages.
+Each team member should have at least three commits.
