@@ -168,14 +168,14 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 2
-  MaxDistance: 7
+  MaxDistance: 4.75
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -507,6 +507,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1046811117}
   - component: {fileID: 1046811118}
+  - component: {fileID: 1046811119}
   m_Layer: 0
   m_Name: Zone 1
   m_TagString: Untagged
@@ -543,14 +544,14 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 0
   DopplerLevel: 1
   MinDistance: 2
-  MaxDistance: 7
+  MaxDistance: 4.75
   Pan2D: 0
   rolloffMode: 0
   BypassEffects: 0
@@ -625,6 +626,30 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!167 &1046811119
+AudioReverbZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1046811116}
+  m_Enabled: 1
+  m_MinDistance: 1
+  m_MaxDistance: 6
+  m_ReverbPreset: 9
+  m_Room: -1000
+  m_RoomHF: 0
+  m_DecayTime: 2.91
+  m_DecayHFRatio: 1.3
+  m_Reflections: -602
+  m_ReflectionsDelay: 0.015
+  m_Reverb: -302
+  m_ReverbDelay: 0.022
+  m_HFReference: 5000
+  m_Diffusion: 100
+  m_Density: 100
+  m_LFReference: 250
+  m_RoomLF: 0
 --- !u!1001 &1320162788
 PrefabInstance:
   m_ObjectHideFlags: 0
