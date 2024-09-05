@@ -260,7 +260,7 @@ AudioLowPassFilter:
   m_GameObject: {fileID: 65450536}
   m_Enabled: 1
   serializedVersion: 3
-  m_LowpassResonanceQ: 2
+  m_LowpassResonanceQ: 1
   lowpassLevelCustomCurve:
     serializedVersion: 2
     m_Curve:
