@@ -836,6 +836,8 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -6875908741159512813, guid: 37285fa43314ffe46bf03e2310f47e3b, type: 2}
     value: {fileID: 2017307414}
+  - key: {fileID: 5919489888822637906, guid: 37285fa43314ffe46bf03e2310f47e3b, type: 2}
+    value: {fileID: 2103896014}
   m_ExposedReferences:
     m_References: []
 --- !u!81 &2017307416
@@ -908,7 +910,7 @@ GameObject:
   - component: {fileID: 2103896010}
   - component: {fileID: 2103896013}
   - component: {fileID: 2103896012}
-  - component: {fileID: 2103896011}
+  - component: {fileID: 2103896014}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -931,27 +933,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2017307413}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &2103896011
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2103896009}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &2103896012
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -972,7 +953,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f6418ea6ec745bc47b2bccc824da809d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1002,6 +983,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103896009}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!95 &2103896014
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103896009}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &6279242580828329409
 PrefabInstance:
   m_ObjectHideFlags: 0
